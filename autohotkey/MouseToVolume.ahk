@@ -10,6 +10,7 @@
 ; ============================================================================
 
 #Requires AutoHotkey v2.0
+#SingleInstance Force
 
 ; Set custom tray icon (unique volume/audio icon)
 TraySetIcon(A_WinDir . "\System32\mmres.dll", 3)
